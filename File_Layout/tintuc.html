@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_CSS\tintuc\phandau.css">
+    <link rel="stylesheet" href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_CSS\tintuc\phancuoi.css">
+    <link rel="stylesheet" href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_CSS\tintuc\phanben.css">
+    <title>Tin tức</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="phandau" id="dau">
+            <div class="logo"><a href=""><img
+                        src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\logo.png"
+                        alt=""></a></div>
+            <nav>
+                <ul>
+                    <li><a
+                            href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\TrangWeb\Trangchu.html">Trang
+                            chủ</a></li>
+                    <li><a
+                            href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_Layout\GioiThieu.html">Giới
+                            thiệu</a></li>
+                    <li>
+                        <a href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_Layout\noidia.html">Chuyến nội địa<i class='bx bxs-chevron-down'></i></a>
+                        <ul class="noidia">
+                            <li><a href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_Layout\dulichAnh.html">Du lịch Đà lạt</a></li>
+                            <li><a href="#">Du lịch Phú Yên</a></li>
+                            <li><a href="#">Du lịch Phú Quốc</a></li>
+                            <li><a href="#">Du lịch Bến Tre</a></li>
+                            <li><a href="#">Du lịch Đà Nẵng</a></li>
+                            <li><a href="#">Du lịch Đảo Ngọc</a></li>
+                            <li><a href="#">Du lịch Hà Giang</a></li>
+                            <li><a href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_Layout\noidia.html">Xem thêm...</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_Layout\nguocngoai.html">Chuyến nước ngoài<i class='bx bxs-chevron-down'></i></a>
+                        <ul class="nuocngoai">
+                            <li><a href="">Du lịch Anh Quốc</a></li>
+                            <li><a href="">Du lịch Hàn Quốc</a></li>
+                            <li><a href="">Du lịch Châu Mỹ</a></li>
+                            <li><a href="">Du lịch Châu Âu</a></li>
+                            <li><a href="">Du lịch Hàn Quốc</a></li>
+                            <li><a href="">Du lịch Canada</a></li>
+                            <li><a href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_Layout\nguocngoai.html">Xem thêm...</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_Layout\tintuc.html">Tin tức</a></li>
+                    <li>
+                        <a href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_Layout\lienhe.html">Liên hệ</a>
+                        <ul class="lienhe">
+                            <li><a href="https://www.facebook.com/"><img
+                                        src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\facebook.png"
+                                        alt=""></a></li>
+                            <li><a href="https://www.instagram.com/"><img
+                                        src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\istagram.png"
+                                        alt=""></a></li>
+                            <li><a href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\TrangWeb\Trangchu.html"><img
+                                        src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\google.png"
+                                        alt=""></a></li>
+                            <li><a href="https://www.youtube.com/watch?v=41HYSF2-gFM"><img
+                                        src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\youtube.png"
+                                        alt=""></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="timkiem">
+                <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\search.png"
+                    alt="" onclick="timkiem();">
+                <div class="thanhtimkiem" style="display: none;">
+                    <span><input type="text" placeholder="Tìm kiếm..." id="tk"><img
+                            src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\icons8-search-100.png"
+                            alt="" onclick="loi();"></span>
+                </div>
+            </div>
+            <div class="caunoithuonghieu">
+                <p>T-travel <br>
+                    Đồng hành cũng bạn <br>
+                    mọi nẻo đường</p>
+            </div>
+        </header>
+        <div class="nd">
+            <div class="chuyentab">
+                <p class="trai">Tin tức</p>
+                <p class="phai">Cẩm nang du lịch</p>
+            </div>
+            <section class="tintucchinh">
+                <aside>
+                    <input type="text" placeholder="Tìm kiếm...">
+                    <span></span><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\icons8-search-100.png"
+                        alt=""><span></span>
+                    <div>
+                        <h5>Bài viết mới nhất</h5>
+                        <ul>
+                            <li>
+                                <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\gioithieu\vungtau.jpg"
+                                    alt="">
+                                <span><a href="">Du lịch Vũng Tàu: Cẩm nang từ A đến Z</a></span>
+                            </li>
+                            <li>
+                                <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\PHILIPPIN.jpg"
+                                    alt="">
+                                <span><a href="">Vì sao bạn phải đến Đài Loan một lần trong đời?</a></span>
+                            </li>
+                            <li>
+                                <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\phuquoc1.jpg"
+                                    alt="">
+                                <span><a href="">Du lịch Phú Quốc: Cẩm nang từ A đến Z</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+                <article>
+                    <header>
+                        <h3>TIN TỨC</h3>
+                        <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\line.png"
+                            alt="">
+                    </header>
+                    <div>
+                        <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\gioithieu\nhatrang.jpg"
+                            alt="">
+                        <div>
+                            <a href="">Du lịch Nha Trang: 10 điểm du lịch tham quan hấp dẫn nhất</a>
+                            <p>Toạ lạc trên đảo Hòn Tre với những bãi biển trong xanh quanh năm, Vinpearl Land được biết đến
+                                như “thiên đường của miền nhiệt đới”. Ngoài những khách sạn sang trọng, những khu vườn tuyệt
+                                đẹp, hồ bơi nước ngọt lý tưởng, nơi này còn thu hút du khách với khu trò chơi cảm giác mạnh
+                                và những rạp chiếu phim 4D hoành tráng ...</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\lienhe\nghiduong.jpg"
+                            alt="">
+                        <div>
+                            <h5><a href="">5 khu nghỉ dưỡng Đà Lạt giá rẻ bạn nên cân nhắc trong dịp tết dương lịch này</a>
+                            </h5>
+                            <p>Nằm yên bình trên đường Hoa Hồng trong khu du lịch Hồ Tuyền Lâm, khu nghỉ dưỡng Đà LạtWonder
+                                được bao bọc giữa những rừng thông xanh, với khí hậu ôn hòa mát mẻ và sở hữu không gian vô
+                                cùng thơ mộng...</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\gioithieu\nhatho.jpg"
+                            alt="">
+                        <div>
+                            <h5><a href="">Ba nhà thờ hút khách nhờ sơn màu hồng dọc miền đất nước</a></h5>
+                            <p>Nhà thờ Tân Định có tên gọi chính thức là Nhà thờ Thánh Tâm Chúa Giêsu. Đây là nhà thờ Công
+                                giáo tọa lạc trên đường Hai Bà Trưng (quận 3, TP HCM). Khởi công vào năm 1870 và hoàn thành
+                                6 năm sau đó, nhà thờ được xây dựng theo lối kiến trúc Gothic nhưng các chi tiết lại mang
+                                phong cách Roman và Baroque. Dù đã trải qua nhiều lần tu sửa, màu sắc ban đầu vẫn luôn được
+                                giữ lại...</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\gioithieu\binhba.jpg"
+                            alt="">
+                        <div>
+                            <h5><a href="">Tất tần tật những kinh nghiệm bạn cần biết trước khi du lịch Bình Ba</a></h5>
+                            <p>Bình Ba là một đảo nhỏ, diện tích trên 3km2, thuộc xã Cam Bình, thành phố Cam Ranh, tỉnh
+                                Khánh Hòa. Cách Nha Trang 60 km, cách thành phố Hồ Chính Minh tầm 390km. Muốn đến Bình Ba,
+                                bắt buộc chúng ta phải đến cảng Ba Ngòi. Cảng Ba Ngòi cách sân bay Cam Ranh 15km, Bình Ba
+                                cách cảng Ba Ngòi cũng 15km...</p>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </div>
+        <footer class="phancuoi">
+            <article class="thongtin">
+                <!--Thông tin-->
+                <div class="noidung">
+                    <!--Thông tin về bản thân-->
+                    <div class="banthan">
+                        <a href=""><img
+                                src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\logo.png"
+                                alt=""></a>
+                        <p><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\map1.png"
+                                alt=""><span>tổ 6, thôn Sơn Thuận, xã Xuân Sơn,<br>
+                                huyện Châu Đức, tỉnh BR-VT</span></p>
+                        <p><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\dienthoai.png"
+                                alt=""><span>0326 141 172</span></p>
+                        <p><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\thu.png"
+                                alt=""><span>5506nguyenthong@gmail.com</span></p>
+                    </div>
+                    <!--Thông tin về trang web-->
+                    <div class="chungtoi">
+                        <p>. VỀ CHÚNG TÔI</p>
+                        <nav>
+                            <ul>
+                                <li><a href="">Trang chủ</a></li>
+                                <li><a href="">Giới thiệu</a></li>
+                                <li><a href="">Du lịch trong nước</a></li>
+                                <li><a href="">Du lịch nước ngoài</a></li>
+                                <li><a href="">Tin tức</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!--Tin tức-->
+                    <div class="tintuc">
+                        <p>. TIN TỨC</p>
+                        <nav>
+                            <ul>
+                                <li><a href="">Bản tin du lịch Việt</a></li>
+                                <li><a href="">Khám phá du lịch</a></li>
+                                <li><a href="">Kinh nghiệm du lịch</a></li>
+                                <li><a href="">Sự kiện du lịch</a></li>
+                                <li><a href="">Tuyển dụng du lịch</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!--Liên hệ-->
+                    <div class="lienhe">
+                        <p>LIÊN HỆ</p>
+                        <ul>
+                            <li><a href=""><img
+                                        src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\facebook.png"
+                                        alt=""></a></li>
+                            <li><a href=""><img
+                                        src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\istagram.png"
+                                        alt=""></a></li>
+                            <li><a href=""><img
+                                        src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\google.png"
+                                        alt=""></a></li>
+                            <li><a href=""><img
+                                        src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\youtube.png"
+                                        alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--Quyền-->
+                <div><img
+                        src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\Line 3.png"
+                        alt=""></div>
+                <div class="quyen">
+                    <p>© Tất cả các quyền thuộc.</p>
+                    <p>Nguyen Van Thong</p>
+                    <p>ý tưởng Mona Media</p>
+                </div>
+            </article>
+
+            <!--phần đăng kí-->
+            <article class="dangki">
+                <header>
+                    <h6>Luôn là người có thông tin sớm nhất</h6>
+                    <h2>ĐĂNG KÍ ĐỂ NHẬN ƯU ĐÃI</h2>
+                    <span><img
+                            src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\line1.png"
+                            alt=""></span>
+                </header>
+                <div>
+                    <input id="mailcuoi" class="mail" type="text" placeholder="Mail của bạn">
+                    <input id="gui" class="gui" type="button" value="Gửi" onclick="oke();">
+                </div>
+            </article>
+        </footer>
+    </div>
+</body>
+<script src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_JS\timkiem.js"></script>
+<script src="https://uhchat.net/code.php?f=dca6cb"></script>
+</html>

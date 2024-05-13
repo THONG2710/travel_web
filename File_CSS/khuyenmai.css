@@ -1,0 +1,108 @@
+.khuyenmai {
+    margin: 0 auto;
+    padding: 0;
+    width: 1540px;
+    height: 562px;
+    background-image: url("D:/Mon_HTML5_CSS3/thongnvps23491_WEB302_Assignment1/PS23491_Nguyen_Van_Thong/Images/maume 1.jpg");
+    background-repeat: no-repeat;
+    background-size: 1540px;
+    position: relative;
+}
+
+.khuyenmai header {
+    text-align: center;
+}
+
+.khuyenmai header h2 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFEFE;
+    padding-top: 52px;
+    transition: all 0.5s;
+}
+
+.khuyenmai header h2:hover {
+    transform: scale(1.1);
+    color: aquamarine;
+}
+
+.khuyenmai .dong2,
+.khuyenmai .dong1 {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 32px;
+    color: #FFFFFF;
+    line-height: 50px;
+}
+
+.khuyenmai .dong1 {
+    position: absolute;
+    top: 169px;
+    left: 378px;
+}
+
+.khuyenmai .dong2 {
+    position: absolute;
+    top: 219px;
+    left: 318px;
+}
+
+.khuyenmai .km {
+    position: absolute;
+    background-color: #FDC500;
+    padding: 8px;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 32px;
+    color: #000000;
+    right: 376px;
+    top: 218px;
+}
+
+.khuyenmai button {
+    position: absolute;
+    top: 344px;
+    left: 633px;
+    padding: 20px;
+    background-color: #FDC500;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.5s;
+    color: #000000;
+}
+.khuyenmai button:hover {
+    transform: scale(1.2);
+}
+
+.khuyenmai button img {
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    top: 15px;
+    right: 205px;
+}
+
+.khuyenmai button a {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 36px;
+    color: #000000;
+    padding-left: 60px;
+    text-decoration: none;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 740px) {
+    .khuyenmai {
+        display: none;
+    }
+}
+
+/*tablet*/
+@media only screen and (min-width: 741px) and (max-width: 1025px) {
+    .khuyenmai {
+        display: none;
+    }
+}

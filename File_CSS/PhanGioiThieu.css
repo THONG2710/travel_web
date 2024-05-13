@@ -1,0 +1,245 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.gioithieu {
+    padding: 0;
+    margin: 0 auto;
+    width: 1440px;
+    height: 450px;
+    text-align: center;
+    position: relative;
+}
+
+.gioithieu header {
+    text-align: center;
+}
+
+.gioithieu header h6 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    color: #595353;
+    margin-top: 63px;
+    margin-bottom: 0;
+}
+
+.gioithieu header h2 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 32px;
+    color: #000000;
+    margin-top: 16px;
+    margin-bottom: 0;
+    transition: all 0.5s;
+}
+
+.gioithieu header h2:hover {
+    transform: scale(1.1);
+    color: rgb(7, 124, 241);
+}
+
+.gioithieu .diadiem li img {
+    border-radius: 100%;
+    width: 170px;
+    margin-right: 35px;
+    transition: all 0.5s;
+}
+
+.gioithieu .diadiem li img:hover {
+    transform: scale(1.1);
+}
+
+.gioithieu .diadiem ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 225px;
+}
+
+.gioithieu .diadiem {
+    width: 1115px;
+    margin-top: 34px;
+    position: relative;
+}
+
+.gioithieu .quaphai img,
+.gioithieu .quatrai img {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 190px;
+}
+
+.gioithieu .quaphai img {
+    right: 162px;
+}
+
+.gioithieu .quatrai img {
+    left: 162px;
+}
+
+.gioithieu .diadiem li p {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.gioithieu .diadiem li .my {
+    position: absolute;
+    top: 70px;
+    left: 286px;
+}
+
+.gioithieu .diadiem li .philippines {
+    position: absolute;
+    top: 70px;
+    left: 436px;
+}
+
+.gioithieu .diadiem li .cuba {
+    position: absolute;
+    top: 70px;
+    left: 685px;
+}
+
+.gioithieu .diadiem li .italy {
+    position: absolute;
+    top: 70px;
+    left: 894px;
+}
+
+.gioithieu .diadiem li .canada {
+    position: absolute;
+    top: 70px;
+    left: 1078px;
+}
+
+
+/*Mobile*/
+@media only screen and (max-width: 740px) {
+
+    /* chung */
+    .gioithieu {
+        width: 390px;
+        height: 420px;
+    }
+
+    /*Phần đầu*/
+    .gioithieu header h6 {
+        font-family: 'Montserrat';
+        font-weight: 300;
+        font-size: 12px;
+        color: #595353;
+        margin-top: 23px;
+        margin-bottom: 0;
+    }
+
+    .gioithieu header h2 {
+        font-family: 'Montserrat';
+        font-weight: 600;
+        font-size: 24px;
+        color: #000000;
+        margin-top: 10px;
+        margin-bottom: 0;
+        transition: all 0.5s;
+    }
+
+    .gioithieu header img {
+        width: 100px;
+    }
+
+    .gioithieu .diadiem li p {
+        color: black;
+    }
+
+    /* các địa điểm */
+    .gioithieu .diadiem {
+        width: 390px;
+        text-align: center;
+    }
+
+    .gioithieu .diadiem li img {
+        width: 120px;
+    }
+
+    .gioithieu .diadiem ul {
+        display: grid;
+        grid-template-columns: 120px 120px ;
+        grid-gap: 20px;
+        width: 390px;
+        margin: 0;
+        justify-content: space-around;
+    }
+
+    .gioithieu .diadiem li p {
+        display: none;
+    }
+
+    .ca {
+        display: none;
+    }
+}
+
+/*tablet*/
+@media only screen and (min-width: 741px) and (max-width: 1025px) {
+    /* chung */
+    .gioithieu {
+        width: 768px;
+        height: 520px;
+    }
+
+    /*Phần đầu*/
+    .gioithieu header h6 {
+        font-family: 'Montserrat';
+        font-weight: 300;
+        font-size: 15px;
+        color: #595353;
+        margin-top: 23px;
+        margin-bottom: 0;
+    }
+
+    .gioithieu header h2 {
+        font-family: 'Montserrat';
+        font-weight: 600;
+        font-size: 32px;
+        color: #000000;
+        margin-top: 10px;
+        margin-bottom: 0;
+        transition: all 0.5s;
+    }
+
+    .gioithieu header img {
+        width: 150px;
+    }
+
+    .gioithieu .diadiem li p {
+        color: black;
+    }
+
+    /* các địa điểm */
+    .gioithieu .diadiem {
+        width: 390px;
+        text-align: center;
+    }
+
+    .gioithieu .diadiem li img {
+        width: 150px;
+    }
+
+    .gioithieu .diadiem ul {
+        display: grid;
+        grid-template-columns: 150px 150px 150px;
+        grid-gap: 50px;
+        width: 768px;
+        margin: 0;
+        justify-content: space-around;
+    }
+
+    .gioithieu .diadiem li p {
+        display: none;
+    }
+
+}

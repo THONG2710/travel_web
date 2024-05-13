@@ -1,0 +1,30 @@
+.khachhang {
+    width: 100%;
+    height: 700px;
+}
+
+.khachhang header {
+    text-align: center;
+}
+
+.khachhang header p {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 32px;
+    color: #000000;
+}
+.khachhang article div ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.khachhang article div ul img {
+    margin-top: 64px;
+    width: 300px;
+    margin-bottom: 104px;
+    transition: all 0.5s;
+}
+
+.khachhang article div ul img:hover {
+    transform: scale(1.1);
+}

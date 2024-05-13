@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_CSS\Phandau.css">
+    <link rel="stylesheet" href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_CSS\PhanGioiThieu.css">
+    <link rel="stylesheet" href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_CSS\PhanDuLichNuocNgoai.css">
+    <link rel="stylesheet" href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_CSS\PhanUuDiem.css">
+    <link rel="stylesheet" href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_CSS\thanhqua.css">
+    <link rel="stylesheet" href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_CSS\dulich_trongnuoc.css">
+    <link rel="stylesheet" href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_CSS\khuyenmai.css">
+    <link rel="stylesheet" href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_CSS\nhanxet_kinhnghiem.css">
+    <link rel="stylesheet" href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_CSS\Phancuoi.css">
+    <title>T - travel</title>
+</head>
+
+<body onload="tudong();">
+    <div id="container">
+        <!--PHẦN ĐẦU TRANG WEB-->
+        <header class="phandau" id="dau">
+            <div class="logo"><a href=""><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\logo.png" alt=""></a></div>
+            <nav class="mnc">
+                <ul class="menuchinh">
+                    <li><a href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\TrangWeb\Trangchu.html">Trang chủ</a></li>
+                    <li><a href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_Layout\GioiThieu.html">Giới thiệu</a></li>
+                    <li>
+                        <a href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_Layout\noidia.html">Chuyến nội địa<i class='bx bxs-chevron-down'></i></a>
+                        <ul class="noidia">
+                            <li><a href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_Layout\dulichAnh.html">Du lịch Đà lạt</a></li>
+                            <li><a href="#">Du lịch Phú Yên</a></li>
+                            <li><a href="#">Du lịch Phú Quốc</a></li>
+                            <li><a href="#">Du lịch Bến Tre</a></li>
+                            <li><a href="#">Du lịch Đà Nẵng</a></li>
+                            <li><a href="#">Du lịch Đảo Ngọc</a></li>
+                            <li><a href="#">Du lịch Hà Giang</a></li>
+                            <li><a href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_Layout\noidia.html">Xem thêm...</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_Layout\nguocngoai.html">Chuyến nước ngoài<i class='bx bxs-chevron-down'></i></a>
+                        <ul class="nuocngoai">
+                            <li><a href="">Du lịch Anh Quốc</a></li>
+                            <li><a href="">Du lịch Hàn Quốc</a></li>
+                            <li><a href="">Du lịch Châu Mỹ</a></li>
+                            <li><a href="">Du lịch Châu Âu</a></li>
+                            <li><a href="">Du lịch Hàn Quốc</a></li>
+                            <li><a href="">Du lịch Canada</a></li>
+                            <li><a href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_Layout\nguocngoai.html">Xem thêm...</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_Layout\tintuc.html">Tin tức</a></li>
+                    <li>
+                        <a href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_Layout\lienhe.html">Liên hệ</a>
+                        <ul class="lienhe">
+                            <li><a href="https://www.facebook.com/"><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\facebook.png" alt=""></a></li>
+                            <li><a href="https://www.instagram.com/"><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\istagram.png" alt=""></a></li>
+                            <li><a href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\TrangWeb\Trangchu.html"><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\google.png" alt=""></a></li>
+                            <li><a href="https://www.youtube.com/watch?v=41HYSF2-gFM"><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\youtube.png" alt=""></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <label for="mobile" class="nutMenu">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/><path xmlns="http://www.w3.org/2000/svg" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+            </label>
+
+            <input type="checkbox" class="inputc" id="mobile">
+
+            <label for="mobile" class="overlay"></label>
+
+            <nav class="danhmucdt">
+                <label for="mobile" class="nutdong">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM175 208.1L222.1 255.1L175 303C165.7 312.4 165.7 327.6 175 336.1C184.4 346.3 199.6 346.3 208.1 336.1L255.1 289.9L303 336.1C312.4 346.3 327.6 346.3 336.1 336.1C346.3 327.6 346.3 312.4 336.1 303L289.9 255.1L336.1 208.1C346.3 199.6 346.3 184.4 336.1 175C327.6 165.7 312.4 165.7 303 175L255.1 222.1L208.1 175C199.6 165.7 184.4 165.7 175 175C165.7 184.4 165.7 199.6 175 208.1V208.1z"/></svg>
+                </label>
+                <ul class="dsdt">
+                    <li><a class="linkdt" href="">Trang chủ</a></li>
+                    <li><a class="linkdt" href="">Giới thiệu</a></li>
+                    <li><a class="linkdt" href="">Chuyến nội địa</a></li>
+                    <li><a class="linkdt" href="">Chuyến nước ngoài</a></li>
+                    <li><a class="linkdt" href="">Tin tức</a></li>
+                    <li><a class="linkdt" href="">Liên hệ</a></li>
+                </ul>
+            </nav>
+
+            <div class="timkiem">
+                <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\search.png" alt=""  onclick="timkiem();">
+                <div class="thanhtimkiem" style="display: none;">
+                    <span><input type="text" placeholder="Tìm kiếm..." id="tk"><img onclick="loi();" src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\icons8-search-100.png" alt=""></span>
+                </div>
+            </div>
+            <div class="caunoithuonghieu">
+                <p>T-travel <br>
+                    Đồng hành cũng bạn <br>
+                    mọi nẻo đường</p>
+            </div>
+        </header>
+
+        <!--PHẦN GIỚI THIỆU-->
+        <section class="gioithieu">
+            <header>
+                <h6>Những điểm đến trên cả tuyệt vời</h6>
+                <h2>THIÊN ĐƯỜNG HỘI TỤ</h2>
+                <span><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\line.png" alt=""></span>
+            </header>
+            <div class="diadiem">
+                <ul>
+                    <li>
+                        <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\USA.jpg" alt="">
+                        <a href="http://mauweb.monamedia.net/trabble/san-pham/du-lich-bo-tay-hoa-ky-7-ngay-los-angeles-las-vegas-gia-tot-2018/"><p class="my">USA</p></a>
+                    </li>
+                    <li>
+                        <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\PHILIPPIN.jpg" alt="">
+                        <p class="philippines">PHILIPPINES</p>
+                    </li>
+                    <li>
+                        <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\CUBA.jpg" alt="">
+                        <p class="cuba">CUBA</p>
+                    </li>
+                    <li>
+                        <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\ITALY.jpg" alt="">
+                        <p class="italy">ITALY</p>
+                    </li>
+                    <li class="ca">
+                        <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\CANADA.jpg" alt="">
+                        <p class="canada">CANADA</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--Hết phần giới thiệu-->
+
+        <!--PHẦN DU LỊCH NƯỚC NGOÀI-->
+        <section class="dulich_nuocngoai">
+            <header>
+                <h6>Chọn ngay chuyến phù hợp</h6>
+                <a href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_Layout\nguocngoai.html"><h2>DU LỊCH NƯỚC NGOÀI</h2></a>
+                <span><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\line1.png" alt=""></span>
+            </header>
+            <article>
+                <div class="dulichAnh">
+                    <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\Anh.jpg" alt="">
+                    <div>
+                        <a href="http://mauweb.monamedia.net/trabble/san-pham/du-lich-anh-scotland-8-ngay-7-dem-khoi-hanh-tu-tp-hcm-gia-tot/"><h6>DU LỊCH ANH</h6></a>
+                        <p>DU LỊCH ANH - WESTMINSTER 8 NGÀY</p>
+                        <h5>59.900.00 đ</h5>
+                    </div>
+                </div>
+                <div class="dulichChauMy">
+                    <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\botayhoaky.jpg" alt="">
+                    <div>
+                        <a href="http://mauweb.monamedia.net/trabble/san-pham/du-lich-bo-tay-hoa-ky-7-ngay-los-angeles-las-vegas-gia-tot-2018/"><h6>DU LỊCH CHÂU MỸ</h6></a>
+                        <p>DU LỊCH BỜ TÂY HOA KỲ 7 NGÀY</p>
+                        <h5>34.900.00 đ</h5>
+                    </div>
+                </div>
+                <div class="dulichHanQuoc">
+                    <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\hanquoc2.jpg" alt="">
+                    <div>
+                        <a href="http://mauweb.monamedia.net/trabble/san-pham/du-lich-nhat-ban-mua-hoa-anh-dao-2018-gia-tot-tu-sai-gon/"><h6>DU LỊCH CHÂU Á</h6></a>
+                        <p>DU LỊCH HÀN QUỐC GIÁ TỐT</p>
+                        <h5>14.999.00 đ</h5>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <!--Hết phần du lịch nước ngoài-->
+
+        <!--PHẦN ƯU ĐIỂM-->
+        <section class="uudiem">
+            <header>
+                <h2>LÍ DO CHỌN T - TRAVEL</h2>
+                <span><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\line.png" alt=""></span>
+            </header>
+            <article>
+                <div>
+                    <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\hotel.png" alt="">
+                    <h6>Khách sạn tốt nhất</h6>
+                    <p>Để mọi người có thể thoải mái du lịch<br>
+                        với khách sạn tốt nhất</p>
+                </div>
+                <div>
+                    <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\hotro.png" alt="">
+                    <h6>Hỗ trợ 24/7</h6>
+                    <p>Để mọi người có thể an tâm du lịch<br>
+                        với tâm trạng tốt nhất</p>
+                </div>
+                <div>
+                    <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\gia.png" alt="">
+                    <h6>Giá luôn tốt nhất</h6>
+                    <p>Để mọi người có thể đi du lịch<br>
+                        với giá cả tốt nhất</p>
+                </div>
+            </article>
+        </section>
+        <!--Hết phần Ưu điểm-->
+
+        <!--PHẦN THÀNH TỰU-->
+        <section class="thanhqua">
+            <header>
+                <h6>Phụng sự khách hàng 10 năm</h6>
+                <h2>THÀNH QUẢ CỦA T - TRAVEL</h2>
+                <span><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\line1.png" alt=""></span>
+            </header>
+            <article>
+                <div>
+                    <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\airplane-around-earth.png" alt="">
+                    <h6>20.549+</h6>
+                    <p>Chuyến hoàn thành</p>
+                </div>
+                <div>
+                    <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\nguoi.png" alt="">
+                    <h6>60.419+</h6>
+                    <p>Khách hàng</p>
+                </div>
+                <div>
+                    <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\traidat.png" alt="">
+                    <h6>5.000+</h6>
+                    <p>Điểm tham quan</p>
+                </div>
+                <div>
+                    <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\xe.png" alt="">
+                    <h6>856+</h6>
+                    <p>Phương tiện</p>
+                </div>
+            </article>
+        </section>
+        <!--Hết phần thành quả-->
+
+        <!--PHẦN DU LICH NỘI ĐỊA-->
+        <section class="dulich_trongnuoc">
+            <header>
+                <h6>Chọn ngay cho bạn chuyến phù hợp</h6>
+                <a href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_Layout\noidia.html"><h2>DU LỊCH NỘI ĐỊA</h2></a>
+                <span><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\line.png" alt=""></span>
+            </header>
+            <article>
+                <div>
+                    <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\condao.png" alt="">
+                    <a href="http://mauweb.monamedia.net/trabble/san-pham/du-lich-con-dao-2-ngay-1-dem-bay-tu-sai-gon/"><h6>Du lịch Côn Đảo</h6></a>
+                    <h5>DU LỊCH CÔN ĐẢO 2 NGÀY 1 ĐÊM</h5>
+                    <h4>5.299.000 đ</h4>
+                </div>
+                <div>
+                    <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\phuquoc.jpg" alt="">
+                    <a href="https://vinatourist.net/tour-trong-nuoc/thien-duong-dao-ngoc-phu-quoc-3n2d.html"><h6>Du lịch Phú Quốc</h6></a>
+                    <h5>DU LỊCH PHÚ QUỐC 3 NGÀY 2 ĐÊM</h5>
+                    <h4>4.099.000 đ</h4>
+                </div>
+                <div>
+                    <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\danang.jpg" alt="">
+                    <a href="http://mauweb.monamedia.net/trabble/san-pham/tour-mien-trung-tang-ve-cap-treo-buffet-trua-toi-ks4-tai-ba-na/"><h6>Du lịch Đà Nẵng</h6></a>
+                    <h5>CHUYẾN ĐI MIỀN TRUNG, ĐÀ NẴNG</h5>
+                    <h4>4.699.000 đ</h4>
+                </div>
+            </article>
+        </section>
+        <!--Hết phần du lịch nội địa-->
+
+        <!--PHẦN KHUYẾN MÃI-->
+        <section class="khuyenmai">
+            <header>
+                <h2>ĐẶC BIỆT</h2>
+                <span><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\line1.png" alt=""></span>
+            </header>
+            <p class="dong1">Ưu đãi đặc biệt cho 50 khách hàng đầu tiên </p>
+            <p class="dong2">đặt chuyến đi du lịch nước ngoài </p><span class="km">giảm ngay 40%</span>
+            <button><a href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_Layout\nguocngoai.html"><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\gio.png" alt="">Đặt ngay</a></button>
+        </section>
+        <!--Hết phần khuyến mãi-->
+
+        <!--PHẦN NHẬN XÉT VÀ KINH NGHIỆM-->
+        <section class="nhanxet_kinhnghiem">
+            <!--Ý KIẾN KHÁCH HÀNG-->
+            <article class="khachhang"> 
+                <header>
+                    <h2>NHẬN XÉT</h2>
+                    <span><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\line.png" alt=""></span>
+                </header>
+                <div>
+                    <img class="anhdaidien" src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\avatar.jpg" alt="">
+                    <p>
+                        <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\sao1.png" alt="">
+                        <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\sao1.png" alt="">
+                        <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\sao1.png" alt="">
+                        <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\sao1.png" alt="">
+                        <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\sao1.png" alt="">
+                    </p>
+                    <h5>Kim Chi</h5>
+                    <p>Tôi đi Singapore vào ngày 28/4 vừa rồi và cảm thấy các dich vụ khá ổn từ khách sạn,
+                        nhà hàng, phương tiện di chuyển đến hành trình tham quan. Mong rằng công ty sẽ phát
+                        huy tốt những điều này tốt hơn</p>
+                    <p>-Chuyến du lịch singapore-</p>
+                </div>
+            </article>
+            <!--Hết phần nhận xét-->
+            <!--PHẦN KINH NGHIỆM DU LỊCH-->
+            <article class="kinhnghiem">
+                <header>
+                    <h2>CẨM NANG DU LỊCH</h2>
+                    <span><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\line.png" alt=""></span>
+                </header>
+                <section>
+                    <div>
+                        <a href="#"><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\phuquoc1.jpg" alt=""></a>
+                        <a href="">
+                            <h5>TẤT TẦN TẬT NHỮNG KINH NGHIỆM BẠN CẦN BIẾT TRƯỚC KHI DU LỊCH PHÚ QUỐC</h5>
+                        </a>
+                        <p>7 tháng 12, 2021</p>
+                        <p class="noidung">Phú Quốc là một địa điểm du lịch nổi tiếng không chỉ thu hút du khách trong nước mà cả các du
+                            khách quốc tế. Một lần đến với đảo Phú Quốc chắc chắn du khách sẽ phải trầm trồ trước vẻ đẹp như
+                            tranh vẽ của nơi này . . .</p>
+                    </div>
+                    <div>
+                        <a href="#"><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\anh.webp" alt=""></a>
+                        <a href="">
+                            <h5>DU LỊCH ANH QUỐC CẦN PHẢI BIẾT 7 ĐIỀU NÀY</h5>
+                        </a>
+                        <p>7 tháng 12, 2020</p>
+                        <p class="noidung">Điểm đến trong hành trình khám phá tiếp theo của Toidi là du lịch Anh Quốc. Nước Anh là một trong
+                            những quốc gia được nhiều khách du lịch ghé thăm nhất. Những biệt thự, nhà thờ cổ kính cùng với
+                            dòng sông thơ khiến nhiều người không khỏi thêm yêu mến vùng đất này . . .</p>
+                    </div>
+                </section>
+            </article>
+            <!--Hết phần kinh nghiệm-->
+        </section>
+
+        <!--PHẦN CUỐI TRANG WEB-->
+        <footer class="phancuoi">
+            <article class="thongtin">
+                <!--Thông tin-->
+                <div class="noidung">
+                    <!--Thông tin về bản thân-->
+                    <div class="banthan">
+                        <a href=""><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\logo.png" alt=""></a>
+                        <p><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\map1.png" alt=""><span>tổ 6, thôn Sơn Thuận, xã Xuân Sơn,<br>
+                                                                                        huyện Châu Đức, tỉnh BR-VT</span></p>
+                        <p><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\dienthoai.png" alt=""><span>0326 141 172</span></p>
+                        <p><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\thu.png" alt=""><span>5506nguyenthong@gmail.com</span></p>
+                    </div>
+                    <!--Thông tin về trang web-->
+                    <div class="chungtoi">
+                        <p>. VỀ CHÚNG TÔI</p>
+                        <nav>
+                            <ul>
+                                <li><a href="">Trang chủ</a></li>
+                                <li><a href="">Giới thiệu</a></li>
+                                <li><a href="">Du lịch trong nước</a></li>
+                                <li><a href="">Du lịch nước ngoài</a></li>
+                                <li><a href="">Tin tức</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!--Tin tức-->
+                    <div class="tintuc">
+                        <p>. TIN TỨC</p>
+                        <nav>
+                            <ul>
+                                <li><a href="">Bản tin du lịch Việt</a></li>
+                                <li><a href="">Khám phá du lịch</a></li>
+                                <li><a href="">Kinh nghiệm du lịch</a></li>
+                                <li><a href="">Sự kiện du lịch</a></li>
+                                <li><a href="">Tuyển dụng du lịch</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!--Liên hệ-->
+                    <div class="lienhe">
+                        <p>LIÊN HỆ</p>
+                        <ul>
+                            <li><a href=""><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\facebook.png" alt=""></a></li>
+                            <li><a href=""><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\istagram.png" alt=""></a></li>
+                            <li><a href=""><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\google.png" alt=""></a></li>
+                            <li><a href=""><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\youtube.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--Quyền-->
+                <div class="linecuoi"><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\Line 3.png" alt=""></div>
+                <div class="quyen">
+                    <p>© Tất cả các quyền thuộc.</p>
+                    <p>Nguyen Van Thong</p>
+                    <p>ý tưởng Mona Media</p>
+                </div>
+            </article>
+
+            <!--phần đăng kí-->
+            <article class="dangki">
+                <header>
+                    <h6>Luôn là người có thông tin sớm nhất</h6>
+                    <h2>ĐĂNG KÍ ĐỂ NHẬN ƯU ĐÃI</h2>
+                    <span><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\line1.png" alt=""></span>
+                </header>
+                <canvas id="myCanvas" ></canvas>
+                <div>
+                    <input id="mailcuoi" class="mail" type="text" placeholder="Mail của bạn">
+                    <input id="gui" class="gui" type="button" value="Gửi" onclick="oke();">
+                </div>
+            </article>
+        </footer>
+        <!--Hết phần cuối trang web-->
+    </div>
+</body>
+<script src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_JS\timkiem.js"></script>
+<script src="https://uhchat.net/code.php?f=dca6cb"></script>
+
+</html>

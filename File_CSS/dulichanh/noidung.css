@@ -1,0 +1,145 @@
+/* Ảnh bên trái*/
+.noidungchitiet section>img {
+    width: 630px;
+    height: 388px;
+}
+
+/* Ảnh phụ*/
+.noidungchitiet section nav>img {
+    width: 135px;
+    height: 92px;
+    transition: all 0.5s;
+    margin: 5px;
+}
+
+.noidungchitiet section nav>img:hover {
+    border: 5px solid red;
+}
+
+.noidungchitiet {
+    display: flex;
+    text-align: center;
+    width: 80%;
+    margin: 50px auto;
+
+}
+
+.noidungchitiet section {
+    margin: 20px;
+}
+
+/* Phần nội dung bên phải*/
+.noidungchitiet section h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #595353;
+    text-align: left;
+}
+
+/* Giá */
+.noidungchitiet section h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #FD0000;
+    text-align: left;
+    margin: 10px auto;
+}
+
+/* Nội dung */
+.noidungchitiet section p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+    text-align: left;
+}
+
+/* Chi tiết*/
+.noidungchitiet section ul {
+    text-align: left;
+    list-style: none;
+}
+
+.noidungchitiet section ul li {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    margin: 10px auto;
+}
+
+/* Nút*/
+.noidungchitiet section input {
+    background: #FDC500;
+    border-radius: 10px;
+    width: 203px;
+    height: 51px;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #000000;
+    margin-top: 20px;
+    transition: all 0.5s;
+}
+
+.noidungchitiet section input:hover {
+    transform: scale(1.1);
+}
+
+/* Giới thiệu*/
+.chuongtrinh {
+    display: flex;
+    width: 400px;
+    margin: 0;
+    text-align: center;
+    margin-left: 140px;
+}
+
+.chuongtrinh p {
+    width: 200px;
+    background: #FDC500;
+    border: 1px solid #595353;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #595353;
+}
+
+.chuongtrinhchinh {
+    margin: 50px auto;
+}
+
+/* Nội dung chính*/
+.chuongtrinhchinh section {
+    border: 10px dashed #FDC500;
+    width: 80%;
+}
+
+.chuongtrinhchinh section div {
+    margin: 20px;
+}
+
+.chuongtrinhchinh section h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FD0000;
+    margin-bottom: 20px;
+}
+
+.chuongtrinhchinh section p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}

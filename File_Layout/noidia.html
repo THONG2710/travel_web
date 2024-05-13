@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_CSS\noidia\kinhnghiem.css">
+    <link rel="stylesheet"
+        href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_CSS\noidia\phancuoi.css">
+    <link rel="stylesheet"
+        href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_CSS\noidia\phandau.css">
+    <link rel="stylesheet"
+        href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_CSS\noidia\noidung.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet"
+        href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_CSS\noidia\uudai.css">
+    <title>Du lịch nội địa</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="phandau">
+            <div class="dautien">
+                <p>Những điểm đến <b>THÚ VỊ</b> <br>
+                    đang <b>CHỜ ĐÓN</b> bạn <b>KHÁM PHÁ!</b></p>
+                <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\logo.png"
+                    alt="">
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\TrangWeb\Trangchu.html">Trang chủ</a></li>
+                    <li><a href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_Layout\GioiThieu.html">Giới thiệu</a></li>
+                    <li><a href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_Layout\noidia.html">Chuyến nội địa</a></li>
+                    <li><a href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_Layout\nguocngoai.html">Chuyến nước ngoài</a></li>
+                    <li><a href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_Layout\tintuc.html">Tin tức</a></li>
+                    <li><a href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_Layout\lienhe.html">Liên hệ</a></li>
+                    <li><input type="text" placeholder="Tìm kiếm..." id="tk"><img
+                            src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\search.png"
+                            alt="" onclick="loi();"></li>
+                </ul>
+            </nav>
+        </header>
+        <article class="noidungchinh">
+            <section class="bentrai">
+                <h1>Địa điểm nổi bật</h1>
+                <ul>
+                    <li><a href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_Layout\dulichAnh.html"><img
+                                src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\dalat1.jpg"
+                                alt="">
+                            <span>Du lịch Đà Lạt</span>
+                        </a></li>
+                    <li><a href=""><img
+                                src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\daolison.jpg"
+                                alt="">
+                            <span>Du lịch Đảo Lí Sơn</span>
+                        </a></li>
+                    <li><a href=""><img
+                                src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\phuquoc1.jpg"
+                                alt="">
+                            <span>Du lịch Đảo Phú Quốc</span>
+                        </a></li>
+                    <li><a href=""><img
+                                src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\sapa.jpg"
+                                alt="">
+                            <span>Du lịch Sapa</span>
+                        </a></li>
+                    <li><a href=""><img
+                                src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\hagiang.jpg"
+                                alt="">
+                            <span>Du lịch Hà Giang</span>
+                        </a></li>
+                    <li><a href=""><img
+                                src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\daonamdu.jpg"
+                                alt="">
+                            <span>Du lịch Đảo Nam Du</span>
+                        </a></li>
+                    <li><a href=""><img
+                                src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\quynhon.png"
+                                alt="">
+                            <span>Du lịch Quy Nhơn</span>
+                        </a></li>
+                    <li><a href=""><img
+                                src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\danang1.jpg"
+                                alt="">
+                            <span>Du lịch Đà Nẵng</span>
+                        </a></li>
+                </ul>
+            </section>
+            <section class="benphai">   
+                <header>
+                    <p>DU LỊCH TRONG NƯỚC</p>
+                    <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\line.png"
+                        alt="">
+                </header>
+                <article>
+                    <div class="dong1">
+                        <div>
+                            <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\dalat1.jpg"
+                                alt="">
+                            <a href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_Layout\dulichAnh.html"><h5>Du lịch Đà Lạt</h5></a>
+                            <ul>
+                                <li><i class='bx bx-map'></i>
+                                    <span>Khởi hành từ TP Hồ Chí Minh</span>
+                                </li>
+                                <li><i class='bx bx-time'></i>
+                                    <span>Thời gian: 3 ngày 3 đêm</span>
+                                </li>
+                                <li><i class='bx bxs-calendar'></i>
+                                    <span>Khởi hành: Thứ 5 hàng tuần</span>
+                                </li>
+                                <li><i class='bx bx-car'></i>
+                                    <span>Phương tiện: Oto</span>
+                                </li>
+                                <li>
+                                    <p>2.095.000 VNĐ</p>
+                                </li>
+                            </ul>
+                            <div class="dk">
+                                <a href="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_Layout\dulichAnh.html"><input type="button" value="Chi tiết"></a>
+                                <input type="button" value="Đặt ngay">
+                            </div>
+                        </div>
+                        <div>
+                            <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\bentre.jpg"
+                                alt="">
+                            <h5>Bến Tre - Trà Vinh khám phá dòng sông dừa </h5>
+                            <ul>
+                                <li><i class='bx bx-map'></i>
+                                    <span>Khởi hành từ TP Hồ Chí Minh</span>
+                                </li>
+                                <li><i class='bx bx-time'></i>
+                                    <span>Thời gian: 2 ngày 1 đêm</span>
+                                </li>
+                                <li><i class='bx bxs-calendar'></i>
+                                    <span>Khởi hành: Thứ 7 hàng tuần</span>
+                                </li>
+                                <li><i class='bx bx-car'></i>
+                                    <span>Phương tiện: Oto</span>
+                                </li>
+                                <li>
+                                    <p>2.990.000 VNĐ</p>
+                                </li>
+                            </ul>
+                            <div class="dk">
+                                <input type="button" value="Chi tiết">
+                                <input type="button" value="Đặt ngay">
+                            </div>
+                        </div>
+                        <div>
+                            <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\hagiang.jpg"
+                                alt="">
+                            <h5>Hà Giang - Đồng Văn - Cao Bằng - Thác Bản Giốc</h5>
+                            <ul>
+                                <li><i class='bx bx-map'></i>
+                                    <span>Khởi hành từ TP Hồ Chí Minh</span>
+                                </li>
+                                <li><i class='bx bx-time'></i>
+                                    <span>Thời gian: 5 ngày 4 đêm</span>
+                                </li>
+                                <li><i class='bx bxs-calendar'></i>
+                                    <span>Khởi hành: 21/10/2022</span>
+                                </li>
+                                <li><i class='bx bx-car'></i>
+                                    <span>Phương tiện: Xe</span>
+                                </li>
+                                <li>
+                                    <p>5.780.000 VNĐ</p>
+                                </li>
+                            </ul>
+                            <div class="dk">
+                                <input type="button" value="Chi tiết">
+                                <input type="button" value="Đặt ngay">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dong2">
+                        <div>
+                            <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\phuyen.jpg"
+                                alt="">
+                            <h5>Về xứ Nẫu ngắm hoa vàng cỏ xanh</h5>
+                            <ul>
+                                <li><i class='bx bx-map'></i>
+                                    <span>Khởi hành từ TP Hồ Chí Minh</span>
+                                </li>
+                                <li><i class='bx bx-time'></i>
+                                    <span>Thời gian: 4 ngày 3 đêm</span>
+                                </li>
+                                <li><i class='bx bxs-calendar'></i>
+                                    <span>Khởi hành: Thứ 5 hàng tuần</span>
+                                </li>
+                                <li><i class='bx bx-car'></i>
+                                    <span>Phương tiện: Oto</span>
+                                </li>
+                                <li>
+                                    <p>4.709.000 VNĐ</p>
+                                </li>
+                            </ul>
+                            <div class="dk">
+                                <input type="button" value="Chi tiết">
+                                <input type="button" value="Đặt ngay">
+                            </div>
+                        </div>
+                        <div>
+                            <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\danang1.jpg"
+                                alt="">
+                            <h5>Đà Nẵng - Sơn Trà - Bà Nà - Hội An - Huế</h5>
+                            <ul>
+                                <li><i class='bx bx-map'></i>
+                                    <span>Đà Nẵng</span>
+                                </li>
+                                <li><i class='bx bx-time'></i>
+                                    <span>Thời gian: 4 ngày 3 đêm</span>
+                                </li>
+                                <li><i class='bx bxs-calendar'></i>
+                                    <span>Khởi hành: Hằng ngày</span>
+                                </li>
+                                <li><i class='bx bx-car'></i>
+                                    <span>Phương tiện: Máy bay</span>
+                                </li>
+                                <li>
+                                    <p>3.320.000 VNĐ</p>
+                                </li>
+                            </ul>
+                            <div class="dk">
+                                <input type="button" value="Chi tiết">
+                                <input type="button" value="Đặt ngay">
+                            </div>
+                        </div>
+                        <div>
+                            <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\mytho.jpg"
+                                alt="">
+                            <h5>Mỹ Tho - Cần Thơ - Cà Mau - Sóc Trăng - Bạc Liêu</h5>
+                            <ul>
+                                <li><i class='bx bx-map'></i>
+                                    <span>Khởi hành từ TP Hồ Chí Minh</span>
+                                </li>
+                                <li><i class='bx bx-time'></i>
+                                    <span>Thời gian: 4 ngày 3 đêm</span>
+                                </li>
+                                <li><i class='bx bxs-calendar'></i>
+                                    <span>Khởi hành: Thứ 6 hàng tuần</span>
+                                </li>
+                                <li><i class='bx bx-car'></i>
+                                    <span>Phương tiện: Xe</span>
+                                </li>
+                                <li>
+                                    <p>4.340.000 VNĐ</p>
+                                </li>
+                            </ul>
+                            <div class="dk">
+                                <input type="button" value="Chi tiết">
+                                <input type="button" value="Đặt ngay">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dong3">
+                        <div>
+                            <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\phuquoc1.jpg"
+                                alt="">
+                            <h5>Du lịch Phú Quốc</h5>
+                            <ul>
+                                <li><i class='bx bx-map'></i>
+                                    <span>Khởi hành từ Hà Nội</span>
+                                </li>
+                                <li><i class='bx bx-time'></i>
+                                    <span>Thời gian: 4 ngày 3 đêm</span>
+                                </li>
+                                <li><i class='bx bxs-calendar'></i>
+                                    <span>Khởi hành: 01/11/2022</span>
+                                </li>
+                                <li><i class='bx bx-car'></i>
+                                    <span>Phương tiện: Máy bay</span>
+                                </li>
+                                <li>
+                                    <p>7.990.000 VNĐ</p>
+                                </li>
+                            </ul>
+                            <div class="dk">
+                                <input type="button" value="Chi tiết">
+                                <input type="button" value="Đặt ngay">
+                            </div>
+                        </div>
+                        <div>
+                            <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\daongoc.jpg"
+                                alt="">
+                            <h5>Đảo Ngọc Phú Quốc</h5>
+                            <ul>
+                                <li><i class='bx bx-map'></i>
+                                    <span>Khởi hành từ Hà Nội</span>
+                                </li>
+                                <li><i class='bx bx-time'></i>
+                                    <span>Thời gian: 4 ngày 3 đêm</span>
+                                </li>
+                                <li><i class='bx bxs-calendar'></i>
+                                    <span>Khởi hành: 30/09/2022</span>
+                                </li>
+                                <li><i class='bx bx-car'></i>
+                                    <span>Phương tiện: Máy bay</span>
+                                </li>
+                                <li>
+                                    <p>8.190.000 VNĐ</p>
+                                </li>
+                            </ul>
+                            <div class="dk">
+                                <input type="button" value="Chi tiết">
+                                <input type="button" value="Đặt ngay">
+                            </div>
+                        </div>
+                        <div>
+                            <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\taynguyen1.jpg"
+                                alt="">
+                            <h5>Tây Nguyên - Buôn Ma Thuột - Gia Lai - Kon Tum</h5>
+                            <ul>
+                                <li><i class='bx bx-map'></i>
+                                    <span>Khởi hành từ TP Hồ Chí Minh</span>
+                                </li>
+                                <li><i class='bx bx-time'></i>
+                                    <span>Thời gian: 4 ngày 3 đêm</span>
+                                </li>
+                                <li><i class='bx bxs-calendar'></i>
+                                    <span>Khởi hành: Thứ 5 hàng tuần</span>
+                                </li>
+                                <li><i class='bx bx-car'></i>
+                                    <span>Phương tiện: Xe</span>
+                                </li>
+                                <li>
+                                    <p>2.999.000 VNĐ</p>
+                                </li>
+                            </ul>
+                            <div class="dk">
+                                <input type="button" value="Chi tiết">
+                                <input type="button" value="Đặt ngay">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </article>
+            </section>
+        </article>
+        <section class="uudai">
+            <header>
+                <p>GÓI ƯU ĐÃI ĐẶC BIỆT</p>
+                <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\line.png"
+                    alt="">
+            </header>
+            <article>
+                <div class="cuc1">
+                    <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\sapa1.jpg"
+                        alt="">
+                    <div class="chinh">
+                        <p class="vemaybay">Vé máy bay+khách sạn</p>
+                        <p class="he">Du lịch hè - Du lịch Sapa - Bản Cát Cát - Hàm Rồng - từ Sài Gòn</p>
+                        <ul>
+                            <li><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\sao.png"
+                                    alt=""></li>
+                            <li><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\sao.png"
+                                    alt=""></li>
+                            <li><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\sao.png"
+                                    alt=""></li>
+                            <li><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\sao.png"
+                                    alt=""></li>
+                        </ul>
+                        <div class="time">
+                            <p class="thoigian">Thời gian</p>
+                            <p class="cuthe">3 ngày 2 đêm</p>
+                        </div>
+                    </div>
+                    <div class="phu">
+                        <p>Giá chỉ từ</p>
+                        <p><b>5.390.000VNĐ</b> /khách </p>
+                        <p>Ngày khởi hành: 19/08/2022 </p>
+                        <input type="button" value="Đặt ngay">
+                    </div>
+                </div>
+                <div class="cuc2">
+                    <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\HaLong.jpg"
+                        alt="">
+                    <div class="chinh">
+                        <p class="vemaybay">Vé máy bay+khách sạn</p>
+                        <p class="he">Du lịch Hạ Long</p>
+                        <ul>
+                            <li><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\sao.png"
+                                    alt=""></li>
+                            <li><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\sao.png"
+                                    alt=""></li>
+                            <li><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\sao.png"
+                                    alt=""></li>
+                            <li><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\sao.png"
+                                    alt=""></li>
+                            <li><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\sao.png"
+                                    alt=""></li>
+                        </ul>
+                        <div class="time">
+                            <span class="thoigian">Thời gian</span>
+                            <span class="cuthe">1 ngày 1 đêm</span>
+                        </div>
+                    </div>
+                    <div class="phu">
+                        <p>Giá chỉ từ</p>
+                        <p><b>3.290.000VNĐ</b> /khách </p>
+                        <p>Ngày khởi hành: 01/12/2022</p>
+                        <input type="button" value="Đặt ngay">
+                    </div>
+                </div>
+                <div class="cuc3">
+                    <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\caobang.jpg"
+                        alt="">
+                    <div class="chinh">
+                        <p class="vemaybay">Vé máy bay+khách sạn</p>
+                        <p class="he">Du lịch tham quan Cao Bằng - Pác Bó - Thác bản Giốc</p>
+                        <ul>
+                            <li><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\sao.png"
+                                    alt=""></li>
+                            <li><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\sao.png"
+                                    alt=""></li>
+                            <li><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\sao.png"
+                                    alt=""></li>
+                            <li><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\sao.png"
+                                    alt=""></li>
+                            <li><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\noidia\sao.png"
+                                    alt=""></li>
+                        </ul>
+                        <div class="time">
+                            <span class="thoigian">Thời gian</span>
+                            <span class="cuthe">4 ngày 3 đêm</span>
+                        </div>
+                    </div>
+                    <div class="phu">
+                        <p>Giá chỉ từ</p>
+                        <p><b>3.990.000VNĐ</b> /khách </p>
+                        <p>Ngày khởi hành: 09/09/2022</p>
+                        <input type="button" value="Đặt ngay">
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="nhanxet_kinhnghiem">
+            <!--Ý KIẾN KHÁCH HÀNG-->
+            <article class="khachhang">
+                <header>
+                    <h2>NHẬN XÉT</h2>
+                    <span><img
+                            src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\line.png"
+                            alt=""></span>
+                </header>
+                <div>
+                    <img class="anhdaidien"
+                        src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\avatar.jpg"
+                        alt="">
+                    <p>
+                        <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\sao1.png"
+                            alt="">
+                        <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\sao1.png"
+                            alt="">
+                        <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\sao1.png"
+                            alt="">
+                        <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\sao1.png"
+                            alt="">
+                        <img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\sao1.png"
+                            alt="">
+                    </p>
+                    <h5>Kim Chi</h5>
+                    <p>Tôi đi Singapore vào ngày 28/4 vừa rồi và cảm thấy các dich vụ khá ổn từ khách sạn,
+                        nhà hàng, phương tiện di chuyển đến hành trình tham quan. Mong rằng công ty sẽ phát
+                        huy tốt những điều này tốt hơn</p>
+                    <p>-Chuyến du lịch singapore-</p>
+                </div>
+            </article>
+            <!--Hết phần nhận xét-->
+            <!--PHẦN KINH NGHIỆM DU LỊCH-->
+            <article class="kinhnghiem">
+                <header>
+                    <h2>CẨM NANG DU LỊCH</h2>
+                    <span><img
+                            src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\line.png"
+                            alt=""></span>
+                </header>
+                <section>
+                    <div>
+                        <a href="#"><img
+                                src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\phuquoc1.jpg"
+                                alt=""></a>
+                        <a href="">
+                            <h5>TẤT TẦN TẬT NHỮNG KINH NGHIỆM BẠN CẦN BIẾT TRƯỚC KHI DU LỊCH PHÚ QUỐC</h5>
+                        </a>
+                        <p>7 tháng 12, 2021</p>
+                        <p class="noidung">Phú Quốc là một địa điểm du lịch nổi tiếng không chỉ thu hút du khách trong
+                            nước mà cả các du
+                            khách quốc tế. Một lần đến với đảo Phú Quốc chắc chắn du khách sẽ phải trầm trồ trước vẻ đẹp
+                            như
+                            tranh vẽ của nơi này . . .</p>
+                    </div>
+                    <div>
+                        <a href="#"><img
+                                src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\anh.webp"
+                                alt=""></a>
+                        <a href="">
+                            <h5>DU LỊCH ANH QUỐC CẦN PHẢI BIẾT 7 ĐIỀU NÀY</h5>
+                        </a>
+                        <p>7 tháng 12, 2020</p>
+                        <p class="noidung">Điểm đến trong hành trình khám phá tiếp theo của Toidi là du lịch Anh Quốc.
+                            Nước Anh là một trong
+                            những quốc gia được nhiều khách du lịch ghé thăm nhất. Những biệt thự, nhà thờ cổ kính cùng
+                            với
+                            dòng sông thơ khiến nhiều người không khỏi thêm yêu mến vùng đất này . . .</p>
+                    </div>
+                </section>
+            </article>
+            <!--Hết phần kinh nghiệm-->
+        </section>
+        <footer class="phancuoi">
+            <article class="thongtin">
+                <!--Thông tin-->
+                <div class="noidung">
+                    <!--Thông tin về bản thân-->
+                    <div class="banthan">
+                        <a href=""><img
+                                src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\logo.png"
+                                alt=""></a>
+                        <p><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\map1.png"
+                                alt=""><span>tổ 6, thôn Sơn Thuận, xã Xuân Sơn,<br>
+                                huyện Châu Đức, tỉnh BR-VT</span></p>
+                        <p><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\dienthoai.png"
+                                alt=""><span>0326 141 172</span></p>
+                        <p><img src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\thu.png"
+                                alt=""><span>5506nguyenthong@gmail.com</span></p>
+                    </div>
+                    <!--Thông tin về trang web-->
+                    <div class="chungtoi">
+                        <p>. VỀ CHÚNG TÔI</p>
+                        <nav>
+                            <ul>
+                                <li><a href="">Trang chủ</a></li>
+                                <li><a href="">Giới thiệu</a></li>
+                                <li><a href="">Du lịch trong nước</a></li>
+                                <li><a href="">Du lịch nước ngoài</a></li>
+                                <li><a href="">Tin tức</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!--Tin tức-->
+                    <div class="tintuc">
+                        <p>. TIN TỨC</p>
+                        <nav>
+                            <ul>
+                                <li><a href="">Bản tin du lịch Việt</a></li>
+                                <li><a href="">Khám phá du lịch</a></li>
+                                <li><a href="">Kinh nghiệm du lịch</a></li>
+                                <li><a href="">Sự kiện du lịch</a></li>
+                                <li><a href="">Tuyển dụng du lịch</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!--Liên hệ-->
+                    <div class="lienhe">
+                        <p>LIÊN HỆ</p>
+                        <ul>
+                            <li><a href=""><img
+                                        src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\facebook.png"
+                                        alt=""></a></li>
+                            <li><a href=""><img
+                                        src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\istagram.png"
+                                        alt=""></a></li>
+                            <li><a href=""><img
+                                        src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\google.png"
+                                        alt=""></a></li>
+                            <li><a href=""><img
+                                        src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\youtube.png"
+                                        alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--Quyền-->
+                <div><img
+                        src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\Line 3.png"
+                        alt=""></div>
+                <div class="quyen">
+                    <p>© Tất cả các quyền thuộc.</p>
+                    <p>Nguyen Van Thong</p>
+                    <p>ý tưởng Mona Media</p>
+                </div>
+            </article>
+
+            <!--phần đăng kí-->
+            <article class="dangki">
+                <header>
+                    <h6>Luôn là người có thông tin sớm nhất</h6>
+                    <h2>ĐĂNG KÍ ĐỂ NHẬN ƯU ĐÃI</h2>
+                    <span><img
+                            src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\Images\line1.png"
+                            alt=""></span>
+                </header>
+                <div>
+                    <input id="mailcuoi" class="mail" type="text" placeholder="Mail của bạn">
+                    <input id="gui" class="gui" type="button" value="Gửi" onclick="oke();">
+                </div>
+            </article>
+        </footer>
+    </div>
+</body>
+<script src="https://uhchat.net/code.php?f=dca6cb"></script>
+<script src="D:\Mon_HTML5_CSS3\thongnvps23491_WEB302_Assignment1\PS23491_Nguyen_Van_Thong\File_JS\timkiem.js"></script>
+</html>

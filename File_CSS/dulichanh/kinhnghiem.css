@@ -1,0 +1,139 @@
+.nhanxet_kinhnghiem {
+    width: 1540px;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+}
+
+/* ý kiến khách hàng */
+.nhanxet_kinhnghiem .khachhang {
+    margin-right: 59px;
+}
+
+.nhanxet_kinhnghiem .khachhang div {
+    width: 300px;
+    background-color: #FDC500;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.nhanxet_kinhnghiem .khachhang header h2 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 32px;
+    color: #0C0C0C;
+    margin-top: 70px;
+    transition: all 0.5s;
+}
+.nhanxet_kinhnghiem .khachhang header h2:hover {
+    transform: scale(1.1);
+    color: rgb(7, 124, 241);
+}
+
+.nhanxet_kinhnghiem .khachhang div p img {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 10px;
+}
+
+.nhanxet_kinhnghiem .khachhang div img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    transition: all 0.5s;
+}
+
+.nhanxet_kinhnghiem .khachhang div .anhdaidien:hover {
+    transform: scale(1.1);
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.nhanxet_kinhnghiem .khachhang div h5 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    color: #595353;
+    margin-bottom: 10px;
+}
+
+.nhanxet_kinhnghiem .khachhang div p {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    color: #595353;
+    margin-bottom: 10px;
+}
+
+/* kinh nghiệm */
+.nhanxet_kinhnghiem .kinhnghiem section {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.nhanxet_kinhnghiem .kinhnghiem header h2 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 32px;
+    color: #0C0C0C;
+    margin-top: 70px;
+    transition: all 0.5s;
+}
+.nhanxet_kinhnghiem .kinhnghiem header h2:hover {
+    transform: scale(1.1);
+    color: rgb(7, 124, 241);
+}
+
+.nhanxet_kinhnghiem .kinhnghiem section div a img {
+    width: 300px;
+    height: 170px;
+    transition: all 0.5s;
+}
+.nhanxet_kinhnghiem .kinhnghiem section div a img:hover {
+    transform: scale(1.1);
+}
+
+.nhanxet_kinhnghiem .kinhnghiem section div {
+    width: 300px;
+}
+
+.nhanxet_kinhnghiem .kinhnghiem section {
+    margin-top: 60px;
+    
+}
+
+.nhanxet_kinhnghiem .kinhnghiem section div {
+    margin-right: 59px;
+}
+
+.nhanxet_kinhnghiem .kinhnghiem section div a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 15px;
+    color: #000000;
+}
+.nhanxet_kinhnghiem .kinhnghiem section div a h5 {
+    margin-top: 5px;
+}
+.nhanxet_kinhnghiem .kinhnghiem section div a h5:hover {
+    border-bottom: 3px solid red;
+    color: red;
+}
+
+.nhanxet_kinhnghiem .kinhnghiem section div p {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 13px;
+    color: #595353;
+}
+.nhanxet_kinhnghiem .kinhnghiem section div .noidung {
+    margin-top: 10px;
+}

@@ -1,0 +1,323 @@
+.dulich_nuocngoai {
+    margin: 0 auto;
+    background-image: url("D:/Mon_HTML5_CSS3/thongnvps23491_WEB302_Assignment1/PS23491_Nguyen_Van_Thong/Images/SinhThai 1.jpg");
+    background-size: 1540px;
+    width: 1540px;
+    height: 662px;
+    position: relative;
+}
+
+/* phần đầu */
+.dulich_nuocngoai header {
+    text-align: center;
+}
+
+.dulich_nuocngoai header h6 {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-top: 44px;
+}
+
+.dulich_nuocngoai header a {
+    text-decoration: none;
+}
+
+.dulich_nuocngoai header h2 {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-top: 18px;
+    transition: all 0.5s;
+}
+
+.dulich_nuocngoai header h2:hover {
+    transform: scale(1.1);
+    color: aquamarine;
+}
+
+/* phần nội dung */
+.dulich_nuocngoai article {
+    display: flex;
+    margin-top: 63px;
+}
+
+.dulich_nuocngoai article div img {
+    width: 350px;
+    height: 320px;
+    border-radius: 30px;
+    position: relative;
+    margin-left: 79px;
+    transition: all 0.5s;
+}
+
+.dulich_nuocngoai article div img:hover {
+    transform: scaleY(1.05);
+}
+
+/* du lịch Anh */
+.dulich_nuocngoai article .dulichAnh {
+    margin-left: 85px;
+}
+
+.dulich_nuocngoai article .dulichAnh div {
+    position: absolute;
+    top: 416px;
+    left: 164px;
+    background: rgba(0, 0, 0, 0.76);
+    width: 350px;
+    height: 95px;
+    text-align: center;
+}
+
+.dulich_nuocngoai article .dulichHanQuoc div p:hover,
+.dulich_nuocngoai article .dulichChauMy div p:hover,
+.dulich_nuocngoai article .dulichAnh div p:hover {
+    color: burlywood;
+}
+
+.dulich_nuocngoai article .dulichHanQuoc div p,
+.dulich_nuocngoai article .dulichChauMy div p,
+.dulich_nuocngoai article .dulichAnh div p {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-top: 5px;
+    transition: all 0.5s;
+}
+
+.dulich_nuocngoai article .dulichHanQuoc div h6,
+.dulich_nuocngoai article .dulichChauMy div h6,
+.dulich_nuocngoai article .dulichAnh div h6 {
+    margin-top: 17px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+    transition: all 0.5s;
+}
+
+.dulich_nuocngoai article .dulichHanQuoc div h6:hover,
+.dulich_nuocngoai article .dulichChauMy div h6:hover,
+.dulich_nuocngoai article .dulichAnh div h6:hover {
+    color: burlywood;
+}
+
+.dulich_nuocngoai article .dulichHanQuoc div h5,
+.dulich_nuocngoai article .dulichChauMy div h5,
+.dulich_nuocngoai article .dulichAnh div h5 {
+    margin-top: 5px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+/* du lịch Châu Mỹ */
+.dulich_nuocngoai article .dulichChauMy div {
+    position: absolute;
+    top: 416px;
+    left: 593px;
+    background: rgba(0, 0, 0, 0.76);
+    width: 350px;
+    height: 95px;
+    text-align: center;
+}
+
+/* du lịch hàn quốc */
+.dulich_nuocngoai article .dulichHanQuoc div {
+    position: absolute;
+    top: 416px;
+    left: 1022px;
+    background: rgba(0, 0, 0, 0.76);
+    width: 350px;
+    height: 95px;
+    text-align: center;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 740px) {
+    .dulich_nuocngoai {
+        width: 390px;
+        background-size: 1200px;
+        height: 550px;
+        background-repeat: no-repeat;
+    }
+
+    /*phần đầu */
+    .dulich_nuocngoai header h6 {
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 12px;
+        color: #FFFFFF;
+        padding-top: 14px;
+    }
+
+    /*Chữ nội dung chính*/
+    .dulich_nuocngoai header h2 {
+        font-family: 'Montserrat';
+        font-weight: 600;
+        font-size: 24px;
+        color: #FFFFFF;
+        margin-top: 5px;
+        transition: all 0.5s;
+    }
+    
+    /*Thẻ gạch chân*/
+    .dulich_nuocngoai header img {
+        width: 100px;
+    }
+
+    /*Các thẻ chính*/
+    .dulich_nuocngoai article {
+        margin-top: 20px;
+        width: 350px;
+        display: grid;
+        justify-items: center;
+        grid-row-gap: 20px;
+    }
+
+    .dulich_nuocngoai article div img {
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        position: relative;
+        margin: 0;
+        transition: all 0.5s;
+    }
+
+    /*Thẻ nước anh*/
+    .dulichAnh {
+        width: 150px;
+    }
+
+    .dulich_nuocngoai article .dulichHanQuoc div p, .dulich_nuocngoai article .dulichChauMy div p, .dulich_nuocngoai article .dulichAnh div p {
+        display: none;
+    }
+
+    .dulich_nuocngoai article .dulichAnh {
+        margin-left: 0;
+    }
+
+    .dulich_nuocngoai article .dulichAnh div {
+        width: 200px;
+        top: 200px;
+        left: 100px;
+        height: 70px;
+    }
+
+    /*du lịch châu mĩ*/
+    .dulichChauMy {
+        width: 150px;
+        margin-left: 0;
+    }
+
+    .dulich_nuocngoai article .dulichChauMy div {
+        width: 200px;
+        height: 70px;
+        top: 430px;
+        left: 100px;
+    }
+    /*du lịch Hàn quốc*/
+    .dulichHanQuoc {
+        display: none;
+    }
+
+
+
+}
+
+/*tablet*/
+@media only screen and (min-width: 741px) and (max-width: 1025px) {
+    .dulich_nuocngoai {
+        width: 768px;
+        background-size: 1200px;
+        height: 500px;
+        background-repeat: no-repeat;
+    }
+
+    /*phần đầu */
+    .dulich_nuocngoai header h6 {
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding-top: 14px;
+    }
+
+    /*Chữ nội dung chính*/
+    .dulich_nuocngoai header h2 {
+        font-family: 'Montserrat';
+        font-weight: 600;
+        font-size: 32px;
+        color: #FFFFFF;
+        margin-top: 5px;
+        transition: all 0.5s;
+    }
+    
+    /*Thẻ gạch chân*/
+    .dulich_nuocngoai header img {
+        width: 150px;
+    }
+
+    /*Các thẻ chính*/
+    .dulich_nuocngoai article {
+        margin-top: 50px;
+        width: 768px;
+        display: flex;
+        justify-content: center;
+        grid-gap: 50px;
+    }
+
+    .dulich_nuocngoai article div img {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        position: relative;
+        margin: 0;
+        transition: all 0.5s;
+    }
+
+    /*Thẻ nước anh*/
+    .dulichAnh {
+        width: 250px;
+    }
+
+    .dulich_nuocngoai article .dulichHanQuoc div p, 
+    .dulich_nuocngoai article .dulichChauMy div p, 
+    .dulich_nuocngoai article .dulichAnh div p {
+        display: none;
+    }
+
+    .dulich_nuocngoai article .dulichAnh {
+        margin-left: 0;
+    }
+
+    .dulich_nuocngoai article .dulichAnh div {
+        width: 250px;
+        top: 300px;
+        left: 109px;
+        height: 70px;
+    }
+
+    /*du lịch châu mĩ*/
+    .dulichChauMy {
+        width: 250px;
+        margin-left: 0;
+    }
+
+    .dulich_nuocngoai article .dulichChauMy div {
+        width: 250px;
+        height: 70px;
+        top: 300px;
+        left: 409px;
+    }
+    /*du lịch Hàn quốc*/
+    .dulichHanQuoc {
+        display: none;
+    }
+
+}

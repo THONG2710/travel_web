@@ -1,0 +1,56 @@
+.noidungchinh {
+    display: flex;
+    width: 1300px;
+    height: 550px;
+}
+
+/* phần logo */
+.noidungchinh .logo img {
+    width: 359px;
+    height: 249px;
+}
+.noidungchinh .logo {
+    display: grid;
+    align-items: center;
+    width: 400px;
+    margin-top: 14px;
+}
+
+/* phần nội dung */
+.noidungchinh .noidung header {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.noidungchinh .noidung header p {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 32px;
+    color: #000000;
+}
+
+.noidungchinh .noidung ul {
+    list-style: none;
+}
+
+.noidungchinh .noidung h4 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+.noidungchinh .noidung ul li span {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.noidungchinh .noidung ul li a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #000000;
+}

@@ -1,0 +1,160 @@
+.uudai {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("D:/Mon_HTML5_CSS3/thongnvps23491_WEB302_Assignment1/PS23491_Nguyen_Van_Thong/Images/noidia/binhba.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 900px;
+}
+
+/* phần đầu */
+.uudai header {
+    text-align: center;
+    padding: 30px;
+}
+
+.uudai header p {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.uudai article>div {
+    margin-top: 20px;
+}
+
+/* phần nội dung */
+.uudai article div>img {
+    width: 340px;
+    height: 220px;
+    margin-right: 0;
+    margin-left: 0px;
+    border-radius: 20px 0 0 20px;
+}
+
+.uudai article .cuc1,
+.uudai article .cuc2,
+.uudai article .cuc3 {
+    display: flex;
+    width: 1200px;
+    grid-gap: 10px;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.uudai article .cuc1:hover,
+.uudai article .cuc2:hover,
+.uudai article .cuc3:hover {
+    padding: 10px;
+}
+
+.uudai article .cuc1,
+.uudai article .cuc2,
+.uudai article .cuc3 {
+    background-color: #FFFFFF;
+}
+
+.uudai article .cuc1 ul,
+.uudai article .cuc2 ul,
+.uudai article .cuc3 ul {
+    display: flex;
+    list-style: none;
+    width: 100px;
+    text-align: left;
+    margin: 10px;
+}
+
+.chinh ul li {
+    width: 20px;
+}
+
+.chinh ul li img {
+    width: 20px;
+    height: 20px;
+}
+
+.uudai article .cuc1 .chinh,
+.uudai article .cuc2 .chinh,
+.uudai article .cuc3 .chinh {
+    margin-left: 0;
+    width: 230px;
+}
+
+.chinh .vemaybay {
+    background-color: #FDC500;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    padding: 7px;
+    margin: 10px;
+}
+
+.uudai article .cuc1 .phu,
+.uudai article .cuc2 .phu,
+.uudai article .cuc3 .phu {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.chinh .he {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    color: #6088D6;
+    width: 500px;
+    margin: 10px;
+}
+
+.time {
+    display: flex;
+    margin: 10px;
+}
+
+.time .thoigian {
+    background: #D9D9D9;
+    margin: 0;
+    padding: 7px;
+}
+
+.time .cuthe {
+    padding: 7px;
+    margin: 0;
+    background: #363232;
+    color: white;
+}
+
+/* 
+phần bên phải */
+.phu {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-left: 1px solid black;
+}
+
+.phu p {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    margin: 10px;
+}
+
+.phu p b {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FD0000;
+}
+
+.phu input {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    background: #FDC500;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-top: 10px
+}

@@ -1,0 +1,84 @@
+.dangnhap {
+    text-align: center;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("D:/Mon_HTML5_CSS3/thongnvps23491_WEB302_Assignment1/PS23491_Nguyen_Van_Thong/Images/danang.jpg");
+    background-repeat: no-repeat;
+    background-size: 1550px;
+    height: 750px;
+}
+
+/* phần ghi nội dung */
+.dangnhap section {
+    width: 950px;
+}
+
+.dangnhap .dienthongtin {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.dangnhap .dienthongtin input {
+    width: 445px;
+    height: 53px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    border-radius: 20px;
+    border: 0;
+    padding-left: 24px;
+    margin: 20px;
+}
+
+.dangnhap .dienthongtin .diachi,
+.dangnhap .dienthongtin .hoten {
+    margin-top: 52px;
+}
+
+/* phần nội dung liên hệ */
+.noidunglienhe {
+    width: 900px;
+    padding: 24px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: black;
+    margin-top: 25px;
+    border-radius: 20px;
+    border: 0;
+}
+
+/* phần nút bấm */
+.dangnhap .nutbam input {
+    width: 112px;
+    height: 47px;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    border: 0;
+    background-color: #1DF7B5;
+    margin-right: 35px;
+}
+.dangnhap .nutbam {
+    text-align: right;
+    margin-top: 24px;
+}
+
+hr {
+    margin: 100px;
+    height: 3px;
+    background-color: rgba(0, 0, 0, 0.61);
+}
+
+/* phần bản đồ */
+.bando {
+    text-align: center;
+}
+
+.bando iframe {
+    width: 1000px;
+}
+

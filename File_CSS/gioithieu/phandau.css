@@ -1,0 +1,227 @@
+
+body {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.container {
+    width: 100%;
+}
+
+.phandau {
+    background-image: url("D:/Mon_HTML5_CSS3/thongnvps23491_WEB302_Assignment1/PS23491_Nguyen_Van_Thong/Images/dulich3.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 714px;
+    position: relative;
+    padding: 0;
+    margin: 0 auto;
+}
+
+/* Phần danh mục con */
+.phandau nav ul li .noidia {
+    display: none;
+    width: 325px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.phandau nav ul li .noidia li {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.phandau nav ul li .noidia li a {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.phandau nav ul li .noidia li:hover {
+    background-color: #fdc60099;
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+.phandau nav ul li:hover .noidia {
+    position: absolute;
+    display: block;
+}
+
+.phandau nav ul li .nuocngoai {
+    display: none;
+    position: absolute;
+    width: 300px;
+    margin-top: 10px;
+}
+.phandau nav ul li .nuocngoai li {
+    border: 1px solid white;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.phandau nav ul li .nuocngoai li a {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.phandau nav ul li:hover .nuocngoai {
+    display: block;
+}
+.phandau nav ul li .nuocngoai li:hover {
+    background-color: #fdc60099;
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+.phandau nav ul li .lienhe {
+    display: none;
+    position: absolute;
+    margin-top: 10px;
+    width: 63px;
+}
+
+.phandau nav ul li .lienhe img {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+.phandau nav ul li .lienhe li {
+    border: 1px solid white;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.phandau nav ul li:hover .lienhe {
+    display: block;
+}
+.phandau nav ul li .lienhe li:hover {
+    background-color: #fdc60099;
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+/* Phần logo */
+.phandau .logo a img {
+    width: 186px;
+    height: 129px;
+    position: absolute;
+    left: 133px;
+    top: 34px;
+    transition: all 0.5s;
+}
+
+.phandau .logo a img:hover {
+    transform: scale(1.1);
+}
+
+.phandau .timkiem>img {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.28),
+            rgba(255, 255, 255, 0.28));
+    box-shadow: 10px 10px 4px rgba(36, 100, 225, 0.25);
+    border-radius: 10px;
+    position: absolute;
+    top: 55px;
+    right: 50px;
+    transition: all 0.5s;
+}
+.phandau .timkiem .thanhtimkiem span img{
+    position: absolute;
+    top: 288px;
+    right: 450px;
+    width: 44px;
+    height: 44px;
+}
+.phandau .timkiem .thanhtimkiem input {
+    width: 600px;
+    position: absolute;
+    height: 82px;
+    border-radius: 50px;
+    border: none;
+    top: 269px;
+    left: 452px;
+    font-size: 30px;
+    padding-left: 42px;
+}
+
+.phandau .timkiem img:hover {
+    transform: scale(1.1);
+}
+
+.phandau nav {
+    position: absolute;
+    right: 114px;
+    top: 64px;
+    padding: 0;
+    margin: 0;
+}
+
+.phandau nav ul {
+    display: flex;
+}
+
+.phandau nav ul li {
+    list-style: none;
+}
+
+.phandau nav>ul>li:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.phandau nav ul li a {
+    margin-right: 23px;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    padding: 0;
+
+}
+
+.phandau nav>ul>li>a:hover {
+    transition: all 0.5s;
+    border-bottom: 10px solid #FDC500;
+}
+
+.phandau .caunoithuonghieu p {
+    position: absolute;
+    top: 499px;
+    left: 89px;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+@media (min-width: 576px) {
+    .phandau {
+        max-width: 570px;
+    }
+}
+
+@media (min-width: 768px) {
+    .phandau {
+        max-width: 760px;
+    }
+}
+
+@media (min-width: 992px) {
+    .phandau {
+        max-width: 990px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .phandau {
+        max-width: 1540px;
+    }
+}

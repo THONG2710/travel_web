@@ -1,0 +1,95 @@
+.noidung {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.noidung header {
+    text-align: center;
+    margin: 50px;
+}
+
+.noidung header p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    color: #000000;
+}
+
+/* phần tiêu đề */
+.noidung .tieude {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+    border-left: 5px solid #FDC500;
+    margin: 50px;
+    margin-left: 150px;
+}
+
+/* phần nội dung chính */
+.noidung .noidungnuocngoai section:hover {
+    border: 10px solid #FDC500;
+}
+.noidung .noidungnuocngoai img {
+    width: 400px;
+    height: 300px;
+    border-radius: 20px 0 0 20px;
+}
+
+.noidung .noidungnuocngoai section {
+    width: 1200px;
+    display: flex;
+    text-align: center;
+    border: 5px solid #D9D9D9;
+    border-radius: 20px;
+    margin: 20px auto;
+    transition: 0.5s;
+}
+
+/* cụ thể */
+.ngoaiphu h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #6088D6;
+    margin: 10px;
+}
+
+.ngoaiphu h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    margin: 10px;
+}
+
+.ngoaiphu h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    color: #FD0000;
+    margin: 10px;
+}
+
+.ngoaiphu p {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.ngoaiphu input {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    background: #FDC500;
+    border-radius: 10px;
+    padding: 15px;
+    border: none;
+}

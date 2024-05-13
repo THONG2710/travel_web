@@ -1,0 +1,159 @@
+.thanhqua {
+    width: 1540px;
+    padding: 0;
+    margin: 0 auto;
+    background-image: url("D:/Mon_HTML5_CSS3/thongnvps23491_WEB302_Assignment1/PS23491_Nguyen_Van_Thong/Images/airplane-g68259e129_1920 1.jpg");
+    background-repeat: no-repeat;
+    background-size: 1540px;
+    height: 622px;
+}
+
+.thanhqua header {
+    text-align: center;
+    padding-top: 44px;
+}
+
+.thanhqua header h6 {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    color: white;
+}
+
+.thanhqua header h2 {
+    font-weight: 800;
+    font-size: 32px;
+    font-family: 'Montserrat';
+    color: white;
+    margin-top: 18px;
+    transition: all 0.5s;
+}
+
+.thanhqua header h2:hover {
+    transform: scale(1.1);
+    color: aquamarine;
+}
+
+.thanhqua article {
+    display: flex;
+    margin-left: 174px;
+}
+
+.thanhqua article div {
+    margin-right: 130px;
+    text-align: center;
+    margin-top: 80px;
+    transition: all 0.5s;
+}
+
+.thanhqua article div:hover {
+    transform: scale(1.5);
+    padding: 20px;
+}
+
+.thanhqua article div img {
+    width: 150px;
+    height: 150px;
+    transition: all 0.5s;
+}
+
+.thanhqua article div h6 {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 48px;
+    color: #FDC500;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.thanhqua article div p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 740px) {
+    .thanhqua {
+        width: 390px;
+        height: 1300px;
+        background-size: 6000px;
+    }
+    .thanhqua header {
+        padding: 0;
+    }
+
+    .thanhqua header h6 {
+        font-size: 14px;
+    }
+
+    .thanhqua header h2 {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    .thanhqua header img {
+        width: 100px;
+    }
+
+    .thanhqua article {
+        display: grid;
+        margin: 0;
+    }
+
+    .thanhqua article div {
+        width: 390px;
+        margin-top: 20px;
+    }
+}
+
+/*tablet*/
+@media only screen and (min-width: 741px) and (max-width: 1025px) {
+    .thanhqua {
+        width: 768px;
+        height: 400px;
+        background-size: 6000px;
+    }
+    .thanhqua header {
+        padding-top: 20px;
+    }
+
+    .thanhqua header h6 {
+        font-size: 14px;
+    }
+
+    .thanhqua header h2 {
+        font-size: 32px;
+        margin-top: 10px;
+    }
+
+    .thanhqua header img {
+        width: 150px;
+    }
+
+    .thanhqua article {
+        display: flex;
+        margin: 0;
+        justify-content: space-around;
+    }
+
+    .thanhqua article div {
+        width: 150px;
+        margin-top: 50px;
+        margin-right: 0;
+    }
+
+    .thanhqua article div img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .thanhqua article div h6 {
+        font-size: 24px;
+    }
+
+    .thanhqua article div p {
+        font-size: 14px;
+    }
+}

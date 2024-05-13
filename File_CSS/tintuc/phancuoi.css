@@ -1,0 +1,177 @@
+.phancuoi {
+    margin: 0 auto;
+    width: 1540px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.phancuoi .thongtin {
+    background-image: url("D:/Mon_HTML5_CSS3/thongnvps23491_WEB302_Assignment1/PS23491_Nguyen_Van_Thong/Images/nui 1.png");
+    background-repeat: no-repeat;
+    background-size: 1540px;
+    padding-bottom: 20px;
+}
+
+.phancuoi .thongtin .noidung {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+
+}
+
+/* thông tin bản thân */
+.phancuoi .thongtin .noidung .banthan {
+    position: relative;
+}
+
+.phancuoi .thongtin .noidung .banthan a img {
+    width: 186px;
+    height: 129px;
+    margin-left: 65px;
+    margin-top: 24px;
+    margin-bottom: 17px;
+}
+
+.phancuoi .thongtin .noidung .banthan p img {
+    width: 50px;
+    height: 50px;
+    margin-right: 18px;
+}
+
+.phancuoi .thongtin .noidung .banthan p {
+    margin-bottom: 21px;
+    display: flex;
+    align-items: center;
+}
+
+.phancuoi .thongtin .noidung .banthan p span {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+/* về chúng tôi */
+.chungtoi p {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 86px;
+    margin-bottom: 63px;
+}
+
+.chungtoi nav ul li {
+    list-style: none;
+    margin-bottom: 16px;
+}
+
+.chungtoi nav ul li a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+/* tin tức */
+.tintuc p {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 86px;
+    margin-bottom: 57px;
+}
+
+.tintuc nav ul li {
+    list-style: none;
+    margin-bottom: 16px;
+}
+
+.tintuc nav ul li a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+/* liên hệ */
+.lienhe p {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 86px;
+    margin-bottom: 40px;
+}
+
+.lienhe ul li {
+    float: left;
+    list-style: none;
+}
+
+.lienhe ul li a img {
+    width: 40px;
+    height: 40px;
+    margin-right: 11px;
+}
+
+/* các quyền */
+.quyen p {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+/* phần đăng kí */
+.phancuoi .dangki {
+    background-image: url("D:/Mon_HTML5_CSS3/thongnvps23491_WEB302_Assignment1/PS23491_Nguyen_Van_Thong/Images/channui 1.jpg");
+    background-repeat: no-repeat;
+    background-size: 1540px;
+    text-align: center;
+    height: 230px;
+}
+
+.phancuoi .dangki header h6 {
+    padding-top: 35px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.phancuoi .dangki header h2 {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 14px;
+}
+
+.phancuoi .dangki div .mail {
+    padding: 10px;
+    width: 368px;
+    padding-left: 30px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    color: #8A8A8A;
+    margin-top: 30px;
+    border: none;
+}
+
+.phancuoi .dangki div .gui {
+    background-color: #FDC500;
+    border-radius: 0px 10px 10px 0px;
+    padding: 10px 30px;
+    border: none;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}

@@ -1,0 +1,179 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* phần header  */
+.nd {
+    background-image: url("D:/Mon_HTML5_CSS3/thongnvps23491_WEB302_Assignment1/PS23491_Nguyen_Van_Thong/Images/lienhe/camp 1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 1200px;
+}
+
+.chuyentab {
+    width: 700px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.chuyentab p {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 28px;
+    width: 350px;
+    height: 70px;
+    background: #FDC500;
+    border: 1px solid #FFFFFF;
+    display: grid;
+    align-items: center;
+}
+
+.chuyentab .trai {
+    border-radius: 0px 0px 0px 20px;
+}
+
+.chuyentab .phai {
+    border-radius: 0px 0px 20px 0px;
+}
+
+
+/* phần menu bên cạnh  */
+.tintucchinh {
+    display: flex;
+    width: 1150px;
+    margin-top: 100px;
+
+}
+
+.tintucchinh aside {
+    width: 400px;
+    position: relative;
+    margin-top: 120px;
+}
+
+.tintucchinh aside div {
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    transition:all 0.5s;
+}
+
+.tintucchinh aside div ul li a:hover {
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+.tintucchinh aside>img {
+    width: 30px;
+    height: 30px;
+    background: #6088D6;
+    padding: 6px;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.tintucchinh aside>input {
+    width: 202px;
+    height: 36px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.tintucchinh aside div h5 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+    padding: 10px;
+}
+
+.tintucchinh aside div ul li img {
+    width: 50px;
+    height: 50px;
+}
+
+.tintucchinh aside div ul {
+    list-style: none;
+}
+
+.tintucchinh aside div ul li {
+    padding: 10px;
+}
+
+.tintucchinh aside div ul li {
+    display: flex;
+}
+
+.tintucchinh aside div ul li span {
+    display: grid;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.tintucchinh aside div ul li a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    text-decoration: none;
+}
+
+/* phần nội dung */
+.tintucchinh article header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tintucchinh article header h3 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+}
+
+.tintucchinh article>div:hover {
+    transform: scale(1.05);
+}
+
+.tintucchinh article div>img {
+    width: 279px;
+    height: 180px;
+    margin: 10px;
+}
+
+.tintucchinh article>div {
+    border: 1px solid black;
+    display: flex;
+    width: 873px;
+    height: 205px;
+    box-sizing: border-box;
+    margin: 10px;
+    background-color: white;
+    transition: all 0.5s;
+}
+
+.tintucchinh article div div a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+    margin-top: 30px;
+    display: grid;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.tintucchinh article div div p {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 15px;
+    margin: 0;
+    color: #000000;
+}
